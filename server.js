@@ -25,7 +25,7 @@ app.post('/adduser', (req, res) => {
       let newUser = req.body
        console.log(req.body)
       user.push(newUser)
-      res.json({message: 'User added successfully...', user: newUser})
+      res.json({message: '1User added successfully...', user: newUser})
 })
 
 
